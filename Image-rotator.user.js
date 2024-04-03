@@ -2,7 +2,8 @@
 // @name        Image rotator
 // @description Rotate images in browser by pressing [ and ]
 // @include     /^https?:\/\/[a-z0-9./_=?&-]*(jpg|png)[a-z0-9./_=?&-]*/
-// @version      1.0
+// @include		/^https?:\/\/encrypted-tbn[0-9]\.gstatic\.com\/images.*/
+// @version      1.1
 // @author       edrf12
 // @updateURL    https://github.com/edrf12/userscripts/raw/main/Image-rotator.user.js
 // @downloadURL  https://github.com/edrf12/userscripts/raw/main/Image-rotator.user.js
