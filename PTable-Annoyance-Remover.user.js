@@ -9,8 +9,11 @@
 // ==/UserScript==
 
 let elements = document.querySelectorAll(
-	"#Notice, body > header > label:nth-child(7), #Wide, body > header > label:nth-child(9), #TopbarToggle, body > header > label:nth-child(11), #SidebarToggle, body > header > label:nth-child(13), #DarkButton, body > footer"
+	"body > header > label:nth-child(7), #Wide, body > header > label:nth-child(9), #TopbarToggle, body > header > label:nth-child(11), #SidebarToggle, body > header > label:nth-child(13), #DarkButton"
 );
+
+document.querySelector("#Notice").remove()
+document.querySelector("body > footer").remove()
 
 elements.forEach((elmnt) => {
 	elmnt.style.setProperty("visibility", "hidden")
