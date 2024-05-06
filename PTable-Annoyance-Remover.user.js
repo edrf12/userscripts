@@ -13,5 +13,5 @@ let elements = document.querySelectorAll(
 );
 
 elements.forEach((elmnt) => {
-	elmnt.remove();
+	elmnt.style.setAttribute("visibility", "hidden")
 });
